@@ -1,0 +1,18 @@
+package comp8190.spacedomain;
+
+public enum SensorState {
+    DETECT_MSG,
+    ANALYZE_MSG,
+    REQUEST,
+    READ_REQUEST,
+    SENSORS,
+    NORMAL,
+    SPIL,
+    NO_SPIL_NORMAL,
+    SPIL_NO_INTERVENTION,
+    SPIL_INTERVENTION,
+    SITUATION_ANALYSES,
+    READ_STATUS,
+    MANAGE_MSG,
+    DELETE
+}
